@@ -201,7 +201,12 @@ class AppController: NSObject {
         }
         
         let duration = track.duration ?? 0
-        let req = LyricsSearchRequest(searchTerm: .info(title: title, artist: artist), duration: duration, limit: 5)
+        let req: LyricsSearchRequest
+        if track.id != "" {
+            req = LyricsSearchRequest(searchTerm: .id(track.id), duration: duration, limit: 5)
+        } else {
+            req = LyricsSearchRequest(searchTerm: .info(title: title, artist: artist), duration: duration, limit: 5)
+        }
         searchRequest = req
         searchCanceller = lyricsManager.lyricsPublisher(request: req)
             .timeout(.seconds(10), scheduler: DispatchQueue.lyricsDisplay.cx)

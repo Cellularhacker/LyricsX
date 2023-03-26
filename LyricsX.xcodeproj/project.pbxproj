@@ -126,11 +126,9 @@
 		BBB03F2D232FB3AF00A3879E /* GenericID in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F2C232FB3AF00A3879E /* GenericID */; };
 		BBB03F30232FB40400A3879E /* Semver in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F2F232FB40400A3879E /* Semver */; };
 		BBB03F3A2331D8A800A3879E /* OpenCC in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F392331D8A800A3879E /* OpenCC */; };
-		BBB03F3D2331DACD00A3879E /* LyricsKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F3C2331DACD00A3879E /* LyricsKit */; };
 		BBB03F3F2331DBB000A3879E /* GenericID in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F3E2331DBB000A3879E /* GenericID */; };
 		BBB03F412331DBB000A3879E /* Semver in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F402331DBB000A3879E /* Semver */; };
 		BBB03F432331DBB000A3879E /* OpenCC in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F422331DBB000A3879E /* OpenCC */; };
-		BBB03F452331DBB000A3879E /* LyricsKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBB03F442331DBB000A3879E /* LyricsKit */; };
 		BBB9AAE31E57EE880078F91A /* SearchLyricsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB9AAE21E57EE880078F91A /* SearchLyricsViewController.swift */; };
 		BBC1D35B1E485BA7002538A2 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1D35A1E485BA7002538A2 /* AppController.swift */; };
 		BBC1D35F1E499A6D002538A2 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1D35E1E499A6D002538A2 /* Global.swift */; };
@@ -141,6 +139,7 @@
 		BBE2A79824041E36004A7E93 /* CombineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2A79724041E36004A7E93 /* CombineExtension.swift */; };
 		BBE2A79924041E36004A7E93 /* CombineExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2A79724041E36004A7E93 /* CombineExtension.swift */; };
 		BBE8FC751F6BEA6200122AFA /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE8FC741F6BEA6200122AFA /* Then.swift */; };
+		C64BF4EB29CEF18E009B1703 /* LyricsKit in Frameworks */ = {isa = PBXBuildFile; productRef = C64BF4EA29CEF18E009B1703 /* LyricsKit */; };
 		E91F76EB21211B8D00755698 /* PreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91F76EA21211B8D00755698 /* PreferenceViewController.swift */; };
 		E97593E42150F47900D80616 /* Polyfill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97593E32150F47800D80616 /* Polyfill.swift */; };
 		E97593E62150F6FB00D80616 /* IBInspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97593E52150F6FB00D80616 /* IBInspection.swift */; };
@@ -330,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBA82F0A256AB8620076831F /* Sparkle in Frameworks */,
+				C64BF4EB29CEF18E009B1703 /* LyricsKit in Frameworks */,
 				BB9C3D8323435A5700860698 /* MusicPlayer in Frameworks */,
 				BB4141C81E46CDD700A51775 /* SnapKit.framework in Frameworks */,
 				BBB03F3A2331D8A800A3879E /* OpenCC in Frameworks */,
@@ -341,7 +341,6 @@
 				BBA82EFB256AB1490076831F /* AppCenterCrashes in Frameworks */,
 				BBA82EFD256AB1490076831F /* AppCenterAnalytics in Frameworks */,
 				BBB03F2D232FB3AF00A3879E /* GenericID in Frameworks */,
-				BBB03F3D2331DACD00A3879E /* LyricsKit in Frameworks */,
 				BB350ABE23D0613D00500146 /* CXExtensions in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +353,6 @@
 				BB6C75EA248B908F00804AEB /* TouchBarHelper in Frameworks */,
 				BB003F01248F89B700860FF7 /* CXShim in Frameworks */,
 				BBB03F3F2331DBB000A3879E /* GenericID in Frameworks */,
-				BBB03F452331DBB000A3879E /* LyricsKit in Frameworks */,
 				BB22681E234C908D008FAFED /* SwiftCF in Frameworks */,
 				BBA82F03256AB29F0076831F /* AppCenterAnalytics in Frameworks */,
 				BB350AC023D0614800500146 /* CXExtensions in Frameworks */,
@@ -553,7 +551,6 @@
 				BBB03F2C232FB3AF00A3879E /* GenericID */,
 				BBB03F2F232FB40400A3879E /* Semver */,
 				BBB03F392331D8A800A3879E /* OpenCC */,
-				BBB03F3C2331DACD00A3879E /* LyricsKit */,
 				BB9C3D8223435A5700860698 /* MusicPlayer */,
 				BB22681B234C9085008FAFED /* SwiftCF */,
 				BB350ABD23D0613D00500146 /* CXExtensions */,
@@ -562,6 +559,7 @@
 				BBA82EFA256AB1490076831F /* AppCenterCrashes */,
 				BBA82EFC256AB1490076831F /* AppCenterAnalytics */,
 				BBA82F09256AB8620076831F /* Sparkle */,
+				C64BF4EA29CEF18E009B1703 /* LyricsKit */,
 			);
 			productName = LyricsX;
 			productReference = BB4141AA1E458BA800A51775 /* LyricsX.app */;
@@ -590,7 +588,6 @@
 				BBB03F3E2331DBB000A3879E /* GenericID */,
 				BBB03F402331DBB000A3879E /* Semver */,
 				BBB03F422331DBB000A3879E /* OpenCC */,
-				BBB03F442331DBB000A3879E /* LyricsKit */,
 				BB9C3D8423435A6300860698 /* MusicPlayer */,
 				BB22681D234C908D008FAFED /* SwiftCF */,
 				BB350ABF23D0614800500146 /* CXExtensions */,
@@ -703,7 +700,6 @@
 				BBB03F2B232FB3AF00A3879E /* XCRemoteSwiftPackageReference "GenericID" */,
 				BBB03F2E232FB40400A3879E /* XCRemoteSwiftPackageReference "Semver" */,
 				BBB03F382331D8A800A3879E /* XCRemoteSwiftPackageReference "SwiftyOpenCC" */,
-				BBB03F3B2331DACD00A3879E /* XCRemoteSwiftPackageReference "LyricsKit" */,
 				BB9C3D8123435A5700860698 /* XCRemoteSwiftPackageReference "MusicPlayer" */,
 				BB22681A234C9085008FAFED /* XCRemoteSwiftPackageReference "SwiftCF" */,
 				BB350ABC23D0613D00500146 /* XCRemoteSwiftPackageReference "CXExtensions" */,
@@ -711,6 +707,7 @@
 				BB003EFD248F89A700860FF7 /* XCRemoteSwiftPackageReference "CombineX" */,
 				BBA82EF9256AB1490076831F /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
 				BBA82F08256AB8620076831F /* XCRemoteSwiftPackageReference "Sparkle" */,
+				C64BF4E929CEF18E009B1703 /* XCRemoteSwiftPackageReference "LyricsKit" */,
 			);
 			productRefGroup = BB4141AB1E458BA800A51775 /* Products */;
 			projectDirPath = "";
@@ -841,7 +838,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "appcenter crashes upload-symbols --symbol \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+			shellScript = "appcenter crashes upload-symbols --symbol \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\" --app anhoder/lyricx-go-musicfox\n";
 		};
 		BB5078A822014C3900B695C3 /* Update Localization */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -884,7 +881,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "appcenter crashes upload-symbols --symbol \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+			shellScript = "appcenter crashes upload-symbols --symbol \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\" --app anhoder/lyricx-go-musicfox\n";
 		};
 		BBC1D5811E4AFE64008869EC /* Bump Build */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1155,6 +1152,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -1174,7 +1172,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-DDEBUG";
@@ -1216,6 +1214,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1229,7 +1228,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_SWIFT_FLAGS = "-DRELEASE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1244,6 +1243,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_ENTITLEMENTS = "LyricsX/Supporting Files/LyricsX.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1268,6 +1268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGN_ENTITLEMENTS = "LyricsX/Supporting Files/LyricsX.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -1507,12 +1508,12 @@
 				kind = branch;
 			};
 		};
-		BBB03F3B2331DACD00A3879E /* XCRemoteSwiftPackageReference "LyricsKit" */ = {
+		C64BF4E929CEF18E009B1703 /* XCRemoteSwiftPackageReference "LyricsKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ddddxxx/LyricsKit";
+			repositoryURL = "https://github.com/go-musicfox/LyricsKit.git";
 			requirement = {
-				kind = upToNextMinorVersion;
-				minimumVersion = 0.11.0;
+				kind = exactVersion;
+				version = "0.11.4-musicfox";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1608,11 +1609,6 @@
 			package = BBB03F382331D8A800A3879E /* XCRemoteSwiftPackageReference "SwiftyOpenCC" */;
 			productName = OpenCC;
 		};
-		BBB03F3C2331DACD00A3879E /* LyricsKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = BBB03F3B2331DACD00A3879E /* XCRemoteSwiftPackageReference "LyricsKit" */;
-			productName = LyricsKit;
-		};
 		BBB03F3E2331DBB000A3879E /* GenericID */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BBB03F2B232FB3AF00A3879E /* XCRemoteSwiftPackageReference "GenericID" */;
@@ -1628,9 +1624,9 @@
 			package = BBB03F382331D8A800A3879E /* XCRemoteSwiftPackageReference "SwiftyOpenCC" */;
 			productName = OpenCC;
 		};
-		BBB03F442331DBB000A3879E /* LyricsKit */ = {
+		C64BF4EA29CEF18E009B1703 /* LyricsKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BBB03F3B2331DACD00A3879E /* XCRemoteSwiftPackageReference "LyricsKit" */;
+			package = C64BF4E929CEF18E009B1703 /* XCRemoteSwiftPackageReference "LyricsKit" */;
 			productName = LyricsKit;
 		};
 /* End XCSwiftPackageProductDependency section */

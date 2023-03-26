@@ -43,7 +43,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuItemValidation, NSMenu
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         registerUserDefaults()
         #if RELEASE
-        AppCenter.start(withAppSecret: "36777a05-06fd-422e-9375-a934b3c835a5", services:[
+        AppCenter.start(withAppSecret: "bc10a9fc-18e6-45b8-9538-f36dd9ca4e92", services:[
             Analytics.self,
             Crashes.self
         ])
